@@ -1,0 +1,118 @@
+/* Responsive */
+/*  */
+
+
+
+@media (max-width:1200px){
+    
+    .showcase__container{
+        width: 1000px;
+    }
+}
+@media (max-width:1005px){
+
+    .showcase__container{
+        width: 900px;
+    }
+}
+@media (max-width:911px){
+
+    .showcase__container{
+        width: 810px;
+       
+    }
+    .showcase__left-side{
+        padding: 6rem 2rem 5rem 4rem; 
+    }
+}
+@media (max-width:778px){
+
+    .showcase__container{
+        width: 730px;
+       
+    }
+    .showcase__left-side{
+        padding: 6rem 2rem 5rem 4rem; 
+    }
+    .showcase__discription{
+        width: 340px;
+    }
+    .showcase__title{
+        font-size: 2.9rem;
+        width: 360px;
+    }
+    .showcase__data ul{
+        gap: 4rem;
+    }
+}
+@media (max-width:629px){
+    .showcase__container{ 
+     flex-direction: column-reverse; 
+     width: 290px;
+    height: 100vh;  
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    margin:10rem 0;
+    }
+    .image__container{
+        width: 100%;
+        height: 200px;
+        margin-top: 20rem;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 1.2rem;
+    }
+    .showcase__image{
+        width:100%;
+        height: 200px;
+        
+    }
+    .showcase__data ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .showcase__left-side{
+        justify-content: center;
+        align-items: center;
+        border-bottom-right-radius: 1.2rem;
+        border-top-left-radius:0;
+        margin-bottom: 10rem;
+       
+       
+    }
+    .showcase__discription{
+        text-align: center;
+        width: 200px;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    .showcase__title{
+        text-align: center;
+        font-size: 2.6rem;
+        width: 200px;
+    }
+    .showcase__data ul{
+        gap: 1.8rem;
+    }
+     .footer div{
+        width: 250px;
+        
+        
+     }
+     .footer{
+        bottom: -12rem;
+        padding: 2rem 0;
+     }
+     
+        .showcase__left-side{
+            padding: 2.5rem 3rem 2rem 3rem;
+        }
+        .showcase__data h2{
+            font-size: 2rem;
+            text-align: center;
+        }
+      
+}
+
+
